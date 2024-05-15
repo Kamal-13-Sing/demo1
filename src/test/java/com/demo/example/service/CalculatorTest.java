@@ -15,4 +15,12 @@ public class CalculatorTest {
         Assert.assertEquals(expected, result);
 
     }
+
+    @Test
+    public void productTest(){
+        int result = Calculator.product(2,3);
+        int expected = 6;
+
+        Assert.assertEquals(expected, result);
+    }
 }
